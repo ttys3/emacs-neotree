@@ -1,6 +1,6 @@
 # emacs-neotree #
 
-A emacs tree plugin like NerdTree for Vim.
+A Emacs tree plugin like NerdTree for Vim.
 
 `Develop` [![Build Status](https://travis-ci.org/jaypei/emacs-neotree.svg?branch=dev)](https://travis-ci.org/jaypei/emacs-neotree)
 `Master` [![Build Status](https://travis-ci.org/jaypei/emacs-neotree.svg?branch=master)](https://travis-ci.org/jaypei/emacs-neotree)
@@ -12,14 +12,16 @@ A emacs tree plugin like NerdTree for Vim.
 
 ## Installation ##
 
-### melpa
+### Melpa
 
 You can install the plugin using the packages on [melpa](http://melpa.milkbox.net/).
 
 Make sure you have something like the following in your Emacs startup file (`~/.emacs.d/init.el`, or `~/.emacs`):
 
+```elisp
     (add-to-list 'package-archives
                  '("melpa" . "http://melpa.milkbox.net/packages/"))
+```
 
 To make that take effect, either evaluate that elisp expression or restart Emacs.
 
@@ -28,7 +30,7 @@ the list by pressing `i`, then press `x` to execute the changes. At
 that point, the package will be installed.
 
 
-### source
+### Source
 
 Clone project:
 ```sh
@@ -55,6 +57,6 @@ Open (toggle) NeoTree:
 
 ## More documentation ##
 
-* [EmacsWiki](http://www.emacswiki.org/emacs/NeoTree)
-* [中文版 NeoTree](http://www.emacswiki.org/emacs-zh/NeoTree_%E4%B8%AD%E6%96%87wiki)
-
+EmacsWiki:
+[En](http://www.emacswiki.org/emacs/NeoTree)
+[中文版](http://www.emacswiki.org/emacs-zh/NeoTree_%E4%B8%AD%E6%96%87wiki)
