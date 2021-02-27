@@ -9,7 +9,7 @@ A Emacs tree plugin like NerdTree for Vim.
 
 ## Screenshots
 
-![NeoTree-1](https://raw.githubusercontent.com/wiki/jaypei/emacs-neotree/imgs/neotree-1.png)  
+![NeoTree-1](https://raw.githubusercontent.com/wiki/jaypei/emacs-neotree/imgs/neotree-1.png)
 
 ## Installation
 
@@ -76,8 +76,8 @@ Only in Neotree Buffer:
 ## Configurations
 
 ### Theme config
-NeoTree provides following themes: *classic*(default) *ascii* *arrow* *icons* *nerd*. 
-Theme can be configed by setting **neo-theme**. For example, use *icons* for window 
+NeoTree provides following themes: *classic*(default) *ascii* *arrow* *icons* *nerd*.
+Theme can be configed by setting **neo-theme**. For example, use *icons* for window
 system and *arrow* terminal.
 
 ```elisp
@@ -85,10 +85,10 @@ system and *arrow* terminal.
 ```
 
 **Note**: For users who want to use the `icons` theme. Pls make sure you have installed the
-[all-the-icons](https://github.com/domtronn/all-the-icons.el) package and its
+[icons-in-terminal](https://github.com/seagle0128/icons-in-terminal.el) package and its
 [fonts](https://github.com/domtronn/all-the-icons.el/tree/master/fonts).
 
-* all-the-icons theme screenshots  
+* all-the-icons theme screenshots
 ![](screenshots/icons.png "neotree icons theme")
 
 ## More documentation
